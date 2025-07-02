@@ -1,1 +1,17 @@
+# Ignora el entorno virtual de Python
 venv/
+
+# Ignora archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Ignora archivos de build de setuptools, pero NO dist ni build (para compartirlos)
+*.egg-info/
+
+# Ignora configuraciones de editores
+.vscode/
+.idea/
+
+# Ignora archivos temporales
+*.log
+*.tmp
